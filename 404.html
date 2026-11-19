@@ -1,2 +1,93 @@
-<!DOCTYPE html><html lang="en" data-astro-cid-ibpinaeu><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>404 | Page not found</title><style>body{color:#151c18;background:#f5f5f0;margin:0;font:1rem/1.5 system-ui,sans-serif}main[data-astro-cid-ibpinaeu]{max-width:36rem;margin:auto;padding:clamp(1.75rem,9vh,5rem) 1rem 2rem}.identity[data-astro-cid-ibpinaeu]{color:#38463e;overflow-wrap:anywhere;font-weight:700}.status[data-astro-cid-ibpinaeu]{color:#3f4c43;font-size:1.125rem;font-weight:800}h1[data-astro-cid-ibpinaeu]{letter-spacing:-.045em;margin:0;font-size:clamp(2rem,7vw,3.625rem);line-height:1.12}.detail[data-astro-cid-ibpinaeu]{margin:.875rem 0 1.4rem}.home[data-astro-cid-ibpinaeu]{color:#fff;background:color-mix(in srgb, var(--business-color,#203b2c) 55%, #121713);border-radius:.45rem;align-items:center;min-height:44px;padding:.35rem 1rem;font-weight:700;display:inline-flex}a[data-astro-cid-ibpinaeu]:focus-visible{outline-offset:3px;outline:2px solid #1b5333}aside[data-astro-cid-ibpinaeu]{border-top:1px solid #b9c4ba;margin-top:1.5rem;padding-top:.625rem;position:relative}aside[data-astro-cid-ibpinaeu]>a[data-astro-cid-ibpinaeu]{color:#244530;text-underline-offset:.25em;align-items:center;min-height:44px;display:inline-flex}[data-astro-cid-ibpinaeu][hidden]{display:none}.atlas-404-frame{visibility:hidden;border:0;border-radius:.5rem;block-size:13rem;inline-size:100%;display:block;position:absolute}.atlas-404-frame[data-ready]{visibility:visible;position:static}
-</style></head><body data-error-base="/website-previews/" data-astro-cid-ibpinaeu><main data-astro-cid-ibpinaeu><p class="identity" data-error-name hidden data-astro-cid-ibpinaeu></p><p class="status" data-astro-cid-ibpinaeu>404</p><h1 data-error-title data-astro-cid-ibpinaeu>Page not found</h1><p class="detail" data-error-detail data-astro-cid-ibpinaeu>The link may have changed or the page may have been removed.</p><a class="home" data-error-return hidden data-astro-cid-ibpinaeu>Back to the homepage</a><aside aria-label="Atlas 1001 Web Studio" data-error-promo data-astro-cid-ibpinaeu><a href="https://init500.github.io/atlas-1001-web-studio/" target="_blank" rel="noopener noreferrer" data-astro-cid-ibpinaeu>Atlas 1001 Web Studio</a></aside></main><script type="module">var e=`https://init500.github.io/atlas-1001-web-studio/`;function t(t){return t===`ka`||t===`tr`?e+t+`/`:e}function n(t){return t===`ka`?e+`embed/`:e+(t===`tr`?`embed/tr/`:`embed/en/`)}var r={ka:{title:`გვერდი ვერ მოიძებნა`,detail:`ბმული შეიძლება შეიცვალა ან გვერდი წაიშალა.`,home:`მთავარ გვერდზე დაბრუნება`},en:{title:`Page not found`,detail:`The link may have changed or the page may have been removed.`,home:`Back to the homepage`},tr:{title:`Sayfa bulunamadı`,detail:`Bağlantı değişmiş veya sayfa kaldırılmış olabilir.`,home:`Ana sayfaya dön`}};function i(e){if(!e||typeof e!=`object`)return!1;let{name:t,primary:n,locales:i,primaryColor:a,studio:o}=e,s=e=>typeof e==`string`&&Object.hasOwn(r,e);return typeof t==`string`&&t.length>0&&typeof a==`string`&&/^#[0-9a-f]{6}$/i.test(a)&&typeof o==`boolean`&&Array.isArray(i)&&i.every(s)&&n!==void 0&&s(n)&&i.includes(n)}function a(e,t){let n=e?e.locales.find(e=>e===t)??e.primary:`en`;return{locale:n,copy:r[n]}}function o(e,t){let r=document.createElement(`iframe`);r.className=`atlas-404-frame`,r.title=`Atlas 1001 Web Studio`,r.loading=`lazy`,r.referrerPolicy=`no-referrer`,r.sandbox.add(`allow-scripts`,`allow-popups`,`allow-popups-to-escape-sandbox`),r.src=n(t);function i(e){e.source===r.contentWindow&&e.origin===`null`&&e.data===`atlas-1001-promo-ready`&&(r.dataset.ready=``,window.removeEventListener(`message`,i))}window.addEventListener(`message`,i),e.append(r)}async function s(){let{errorBase:e,errorContext:n,errorHome:r}=document.body.dataset,s=document.querySelector(`[data-error-promo]`);if(!e||!s)return;let c=location.pathname.startsWith(e)?location.pathname.slice(e.length):``,l=c.split(`/`),u=/^demo\/([a-z0-9]+(?:-[a-z0-9]+)*)(?:\/|$)/.exec(c),d,f=r;if(n)d=JSON.parse(n);else if(u)try{let t=e+`demo/`+u[1]+`/404-context.json`,n=await fetch(t,{priority:`high`,signal:AbortSignal.timeout(1e4)});n.ok&&(d=await n.json(),f=e+`demo/`+u[1]+`/`)}catch{}if(i(d)&&f){let e=u?l[2]:l[0],n=a(d,e);document.documentElement.lang=n.locale,document.title=`404 | `+d.name;let r=document.querySelector(`[data-error-name]`);r.textContent=d.name,r.hidden=!1,document.querySelector(`main`).style.setProperty(`--business-color`,d.primaryColor),document.querySelector(`[data-error-title]`).textContent=n.copy.title,document.querySelector(`[data-error-detail]`).textContent=n.copy.detail;let i=document.querySelector(`[data-error-return]`);i.textContent=n.copy.home,i.href=f+(n.locale===e?n.locale+`/`:``),i.hidden=!1,s.hidden=!d.studio,s.querySelector(`a`).href=t(n.locale)}s.hidden||o(s,document.documentElement.lang)}s();</script></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>404 | Page not found</title><style>:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  --business-color: #493528;
+  --business-accent: #c8a47a;
+  --sheet: #fbf3e9;
+  --heading-font: Georgia, 'Times New Roman', serif;
+  --body-font: system-ui, sans-serif;
+  --ink: color-mix(in srgb, var(--business-color) 65%, #1c1510);
+  --muted: color-mix(in srgb, var(--business-color) 78%, #5e534c);
+  --metal: color-mix(in srgb, var(--business-accent) 42%, var(--business-color));
+  --rule: color-mix(in srgb, var(--business-accent) 50%, var(--sheet));
+  margin: 0;
+  min-block-size: 100vh;
+  background-color: #fbf3e9;
+  background:
+    radial-gradient(ellipse 56% 42% at 98% 5%, color-mix(in srgb, var(--business-accent) 25%, transparent), transparent),
+    radial-gradient(ellipse 72% 48% at 82% 97%, color-mix(in srgb, var(--business-accent) 18%, transparent), transparent), var(--sheet);
+  color: var(--ink, #2c2018);
+  font: 1rem/1.5 var(--body-font);
+}
+body[data-error-font="technical"] { --sheet: #f0f5f7; --heading-font: system-ui, sans-serif; --ink: color-mix(in srgb, var(--business-color) 68%, #10202b); }
+body[data-error-font="humanist"] { --sheet: #f1f5ef; --heading-font: 'Trebuchet MS', system-ui, sans-serif; }
+html:lang(ka) body:not([data-error-font="technical"]) { --heading-font: Sylfaen, Georgia, serif; }
+.error-page {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  min-block-size: 100vh;
+  padding: 0 max(clamp(1.25rem, 5.8vw, 4rem), calc((100% - 58rem) / 2)) clamp(2.5rem, 6vw, 5rem);
+}
+.error-page::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 51% 29% at 114% 43%, color-mix(in srgb, var(--business-accent) 20%, transparent) 98.9%, #fff8ecb8 99.4%, transparent 100%),
+    radial-gradient(ellipse 49% 29% at 112% 70%, color-mix(in srgb, var(--business-accent) 17%, transparent) 98.9%, #fff8ecab 99.4%, transparent 100%);
+}
+.error-header {
+  padding-block: clamp(1rem, 3vw, 2.1rem);
+  border-block-end: 1px solid var(--rule);
+  font: 600 clamp(1.6rem, 4.8vw, 3.4rem)/1.08 var(--heading-font);
+  letter-spacing: -.028em;
+  overflow-wrap: anywhere;
+}
+.error-message { padding-block: clamp(2.35rem, 6.7vw, 5rem) clamp(2.15rem, 5.5vw, 4.3rem); }
+.error-code { margin: 0 0 clamp(.65rem, 2.5vw, 1.55rem); font: 600 clamp(1.2rem, 4.1vw, 2.6rem)/1 var(--heading-font); letter-spacing: .23em; color: var(--metal); }
+h1 { margin: 0; font: 600 clamp(2.55rem, 8.2vw, 6.25rem)/1.04 var(--heading-font); letter-spacing: -.047em; overflow-wrap: anywhere; }
+html:lang(ka) h1 { font-size: clamp(2.25rem, 7.2vw, 5.1rem); letter-spacing: -.018em; }
+.error-detail { max-width: 65ch; margin: clamp(.8rem, 2.3vw, 1.5rem) 0 clamp(1.55rem, 3.1vw, 2.65rem); color: var(--muted); font-size: clamp(1.025rem, 2.3vw, 1.65rem); line-height: 1.45; }
+.error-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(.5rem, 1.5vw, 1.2rem);
+  min-block-size: 48px;
+  max-inline-size: 100%;
+  border: 1px solid color-mix(in srgb, var(--business-accent) 65%, var(--business-color));
+  border-radius: 999px;
+  padding: clamp(.65rem, 1.7vw, 1.15rem) clamp(1.15rem, 5vw, 3.5rem);
+  color: #fffaf2;
+  background: #352517;
+  background: linear-gradient(160deg, color-mix(in srgb, var(--business-color) 92%, #2c2118), color-mix(in srgb, var(--business-color) 55%, #231b17));
+  box-shadow: 0 .8rem 1.6rem color-mix(in srgb, var(--business-color) 20%, transparent);
+  text-decoration: none;
+  font: 600 clamp(1rem, 2.75vw, 2rem)/1.15 var(--heading-font);
+}
+.error-home span:last-child { color: #f4d6a3; font-family: var(--body-font); }
+body[data-error-font="technical"] .error-home span:last-child { color: #d4edf8; }
+.error-home:hover { filter: brightness(1.12); }
+a:focus-visible { outline: 3px solid var(--metal, #805e36); outline-offset: 4px; }
+.error-divider { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: clamp(.6rem, 2.4vw, 1.6rem); margin-block-end: clamp(.75rem, 3vw, 1.8rem); color: var(--metal); font-size: clamp(1.25rem, 3.6vw, 2.1rem); line-height: 1; }
+.error-divider::before, .error-divider::after { content: ''; border-top: 1px solid var(--rule); }
+.error-promo-slot { position: relative; }
+.atlas-fallback {
+  display: flex; align-items: center; gap: clamp(.65rem, 2vw, 1.1rem);
+  max-width: 100%; min-block-size: 64px; padding: .9rem clamp(.8rem, 3vw, 1.5rem);
+  border: 1px solid #6b4f35; border-radius: clamp(.9rem, 3vw, 1.6rem);
+  color: #fff7e7; background: linear-gradient(135deg, #281c16, #443020);
+  text-decoration: none; font: 600 clamp(1.05rem, 2.3vw, 1.55rem)/1.15 Georgia, serif;
+}
+.atlas-fallback:hover { color: #f8d799; }
+.atlas-fallback-mark { display: grid; place-items: center; inline-size: 2rem; aspect-ratio: 1; flex-shrink: 0; border: 1px solid #dba954; border-radius: .48rem; color: #f9deac; }
+.atlas-fallback-arrow { margin-inline-start: auto; color: #f9deac; }
+.atlas-404-frame { position: absolute; inset-block-start: 0; inset-inline-start: 0; display: block; visibility: hidden; inline-size: 100%; block-size: clamp(18rem, 47vw, 35rem); border: 0; border-radius: clamp(1.15rem, 3vw, 2.1rem); color-scheme: light; }
+.atlas-404-frame[data-ready] { position: static; visibility: visible; box-shadow: 0 1.1rem 2.5rem #432a201e; }
+[data-promo-ready] > .atlas-fallback:not(:focus) { display: none; }
+[hidden] { display: none; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto; } }
+</style></head><body data-error-base="/website-previews/"><main class="error-page"><header class="error-header" data-error-name hidden></header><section class="error-message" aria-labelledby="error-title"><p class="error-code">404</p><h1 id="error-title" data-error-title>Page not found</h1><p class="error-detail" data-error-detail>The link may have changed or the page may have been removed.</p><a class="error-home" data-error-return hidden><span data-error-home-label>Back to the homepage</span><span aria-hidden="true">→</span></a></section><aside class="error-promo" aria-label="Atlas 1001 Web Studio" data-error-promo><div class="error-divider" aria-hidden="true"><span>✦</span></div><div class="error-promo-slot" data-error-promo-slot><a class="atlas-fallback" href="https://init500.github.io/atlas-1001-web-studio/" target="_blank" rel="noopener noreferrer"><span class="atlas-fallback-mark" aria-hidden="true">A</span><span>Atlas 1001 Web Studio</span><span class="atlas-fallback-arrow" aria-hidden="true">→</span></a></div></aside></main><script type="module">var e=`https://init500.github.io/atlas-1001-web-studio/`;function t(t){return t===`ka`||t===`tr`?e+t+`/`:e}function n(t){return t===`ka`?e+`embed/`:e+(t===`tr`?`embed/tr/`:`embed/en/`)}var r={ka:{title:`გვერდი ვერ მოიძებნა`,detail:`ბმული შეიძლება შეიცვალა ან გვერდი წაიშალა.`,home:`მთავარ გვერდზე დაბრუნება`},en:{title:`Page not found`,detail:`The link may have changed or the page may have been removed.`,home:`Back to the homepage`},tr:{title:`Sayfa bulunamadı`,detail:`Bağlantı değişmiş veya sayfa kaldırılmış olabilir.`,home:`Ana sayfaya dön`}},i=[`editorial`,`technical`,`humanist`];function a(e){if(!e||typeof e!=`object`)return!1;let{name:t,primary:n,locales:a,primaryColor:o,accentColor:s,font:c,studio:l}=e,u=e=>typeof e==`string`&&Object.hasOwn(r,e),d=e=>typeof e==`string`&&/^#[0-9a-f]{6}$/i.test(e);return typeof t==`string`&&t.length>0&&d(o)&&typeof l==`boolean`&&(s===void 0||d(s))&&(c===void 0||i.includes(c))&&Array.isArray(a)&&a.every(u)&&n!==void 0&&u(n)&&a.includes(n)}function o(e,t){let n=e?e.locales.find(e=>e===t)??e.primary:`en`;return{locale:n,copy:r[n]}}function s(e,t){let r=document.createElement(`iframe`);r.className=`atlas-404-frame`,r.title=`Atlas 1001 Web Studio`,r.loading=`lazy`,r.referrerPolicy=`no-referrer`,r.sandbox.add(`allow-scripts`,`allow-popups`,`allow-popups-to-escape-sandbox`),r.src=n(t);function i(t){if(t.source!==r.contentWindow||t.origin!==`null`)return;t.data===`atlas-1001-promo-ready`&&(r.dataset.ready=``,e.dataset.promoReady=``);let n=t.data;n?.type===`atlas-1001-promo-size`&&Number.isInteger(n.height)&&n.height>=180&&n.height<=1024&&(r.style.blockSize=n.height+`px`)}window.addEventListener(`message`,i),e.append(r)}async function c(){let{errorBase:e,errorContext:n,errorHome:r}=document.body.dataset,i=document.querySelector(`[data-error-promo]`),c=i?.querySelector(`[data-error-promo-slot]`);if(!e||!i||!c)return;let l=location.pathname.startsWith(e)?location.pathname.slice(e.length):``,u=l.split(`/`),d=/^demo\/([a-z0-9]+(?:-[a-z0-9]+)*)(?:\/|$)/.exec(l),f,p=r;if(n)f=JSON.parse(n);else if(d)try{let t=e+`demo/`+d[1]+`/404-context.json`,n=await fetch(t,{priority:`high`,signal:AbortSignal.timeout(1e4)});n.ok&&(f=await n.json(),p=e+`demo/`+d[1]+`/`)}catch{}if(a(f)&&p){let e=d?u[2]:u[0],n=o(f,e);document.documentElement.lang=n.locale,document.title=`404 | `+f.name;let r=document.querySelector(`[data-error-name]`);r.textContent=f.name,r.hidden=!1,document.body.style.setProperty(`--business-color`,f.primaryColor),f.accentColor&&document.body.style.setProperty(`--business-accent`,f.accentColor),f.font&&(document.body.dataset.errorFont=f.font),document.querySelector(`[data-error-title]`).textContent=n.copy.title,document.querySelector(`[data-error-detail]`).textContent=n.copy.detail;let a=document.querySelector(`[data-error-return]`);a.querySelector(`[data-error-home-label]`).textContent=n.copy.home,a.href=p+(n.locale===e?n.locale+`/`:``),a.hidden=!1,i.hidden=!f.studio,i.querySelector(`a`).href=t(n.locale)}i.hidden||s(c,document.documentElement.lang)}c();</script></body></html>
